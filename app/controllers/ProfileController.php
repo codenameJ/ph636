@@ -48,3 +48,5 @@ class ProfileController extends ControllerBase {
    
   }	
 }
+
+?>

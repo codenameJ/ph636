@@ -60,7 +60,7 @@
       
    
       <li class="nav-item">
-              <a class="nav-link rounded js-scroll-trigger" href="#about"><?php echo $this->session->get('memberEmail');?></a>
+              <a class="nav-link rounded js-scroll-trigger" href="<?php echo$this->url->getBaseUri();?>#about"><?php echo $this->session->get('memberEmail');?></a>
      </li>
      <li class="nav-item">
      		<a  class="btn btn-danger navbar-btn" href="<?php echo$this->url->getBaseUri();?>authen/signOut"> Logout </a> 
